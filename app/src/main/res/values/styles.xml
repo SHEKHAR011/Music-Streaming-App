@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MusicApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/music_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/music_primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/music_accent</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/music_primary_dark</item>
+    </style>
+
+    <style name="ThemeOverlay.MusicApp.Toolbar" parent="">
+        <item name="android:textColorSecondary">@color/music_text_secondary</item>
+    </style>
+
+    <style name="MusicSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/music_text_primary</item>
+        <item name="android:textColorHint">@color/music_text_secondary</item>
+
+    </style>
+    <style name="WhiteSearchViewText" parent="Theme.AppCompat.Light">
+
+        <item name="android:textColor">@android:color/white</item>
+
+        <item name="android:textColorHint">@color/white_80</item>
+    </style>
+
+
+</resources>
